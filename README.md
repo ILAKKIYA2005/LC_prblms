@@ -19,7 +19,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | # | Problem | Difficulty |
 |---|---------|------------|
 | 216 | [Combination Sum III](./Array/Combination%20Sum%20III/) | Medium |
-| 287 | [Find the Duplicate Number](./Array/Find%20the%20Duplicate%20Number/) | Easy |
+| 287 | [Find the Duplicate Number](./Array/Find%20the%20Duplicate%20Number/) | Medium |
 | 977 | [Squares of a Sorted Array](./Array/Squares%20of%20a%20Sorted%20Array/) | Easy |
 
 </details>

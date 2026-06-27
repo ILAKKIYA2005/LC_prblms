@@ -1,70 +1,55 @@
 # 287. Find the Duplicate Number
 
 [![LeetCode Link](https://img.shields.io/badge/LeetCode-Problem_Link-FFA116?style=flat-square&logo=leetcode)](https://leetcode.com/problems/find-the-duplicate-number/)
-![Difficulty](https://img.shields.io/badge/Difficulty-Easy-22c55e?style=flat-square)
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-eab308?style=flat-square)
 
 ## Problem Statement
 
-Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
+<p>Given an array of integers <code>nums</code> containing&nbsp;<code>n + 1</code> integers where each integer is in the range <code>[1, n]</code> inclusive.</p>
 
-There is only one repeated number in nums, return this repeated number.
+<p>There is only <strong>one repeated number</strong> in <code>nums</code>, return <em>this&nbsp;repeated&nbsp;number</em>.</p>
 
-You must solve the problem without modifying the array nums and using only constant extra space.
+<p>You must solve the problem <strong>without</strong> modifying the array <code>nums</code>&nbsp;and using only constant extra space.</p>
 
- 
-Example 1:
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-Input: nums = [1,3,4,2,2]
-Output: 2
+<pre>
+<strong>Input:</strong> nums = [1,3,4,2,2]
+<strong>Output:</strong> 2
+</pre>
 
+<p><strong class="example">Example 2:</strong></p>
 
-Example 2:
+<pre>
+<strong>Input:</strong> nums = [3,1,3,4,2]
+<strong>Output:</strong> 3
+</pre>
 
-Input: nums = [3,1,3,4,2]
-Output: 3
+<p><strong class="example">Example 3:</strong></p>
 
+<pre>
+<strong>Input:</strong> nums = [3,3,3,3,3]
+<strong>Output:</strong> 3</pre>
 
-Example 3:
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
-Input: nums = [3,3,3,3,3]
-Output: 3
+<ul>
+	<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>
+	<li><code>nums.length == n + 1</code></li>
+	<li><code>1 &lt;= nums[i] &lt;= n</code></li>
+	<li>All the integers in <code>nums</code> appear only <strong>once</strong> except for <strong>precisely one integer</strong> which appears <strong>two or more</strong> times.</li>
+</ul>
 
- 
-Constraints:
+<p>&nbsp;</p>
+<p><b>Follow up:</b></p>
 
+<ul>
+	<li>How can we prove that at least one duplicate number must exist in <code>nums</code>?</li>
+	<li>Can you solve the problem in linear runtime complexity?</li>
+</ul>
 
-	1 <= n <= 105
-	nums.length == n + 1
-	1 <= nums[i] <= n
-	All the integers in nums appear only once except for precisely one integer which appears two or more times.
-
-
- 
-Follow up:
-
-
-	How can we prove that at least one duplicate number must exist in nums?
-	Can you solve the problem in linear runtime complexity?
-
-## Examples
-
-```
-Input: nums = [1,3,4,2,2]
-Output: 2
-
-Input: nums = [3,1,3,4,2]
-Output: 3
-
-Input: nums = [3,3,3,3,3]
-Output: 3
-```
-
-## Constraints
-
-- 1 <= n <= 105
-- nums.length == n + 1
-- 1 <= nums[i] <= n
-- All the integers in nums appear only once except for precisely one integer which appears two or more times.
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*
