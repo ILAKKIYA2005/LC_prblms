@@ -1,40 +1,52 @@
 # 996. Number of Squareful Arrays
 
 [![LeetCode Link](https://img.shields.io/badge/LeetCode-Problem_Link-FFA116?style=flat-square&logo=leetcode)](https://leetcode.com/problems/number-of-squareful-arrays/)
-![Difficulty](https://img.shields.io/badge/Difficulty-Hard-ef4444?style=flat-square)
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-eab308?style=flat-square)
 
 ## Problem Statement
 
-<p>An array is <strong>squareful</strong> if the sum of every pair of adjacent elements is a <strong>perfect square</strong>.</p>
+An array is squareful if the sum of every pair of adjacent elements is a perfect square.
 
-<p>Given an integer array nums, return <em>the number of permutations of </em><code>nums</code><em> that are <strong>squareful</strong></em>.</p>
+Given an integer array nums, return the number of permutations of nums that are squareful.
 
-<p>Two permutations <code>perm1</code> and <code>perm2</code> are different if there is some index <code>i</code> such that <code>perm1[i] != perm2[i]</code>.</p>
+Two permutations perm1 and perm2 are different if there is some index i such that perm1[i] != perm2[i].
 
-<p>&nbsp;</p>
-<p><strong class="example">Example 1:</strong></p>
+ 
+Example 1:
 
-<pre>
-<strong>Input:</strong> nums = [1,17,8]
-<strong>Output:</strong> 2
-<strong>Explanation:</strong> [1,8,17] and [17,8,1] are the valid permutations.
-</pre>
+Input: nums = [1,17,8]
+Output: 2
+Explanation: [1,8,17] and [17,8,1] are the valid permutations.
 
-<p><strong class="example">Example 2:</strong></p>
 
-<pre>
-<strong>Input:</strong> nums = [2,2,2]
-<strong>Output:</strong> 1
-</pre>
+Example 2:
 
-<p>&nbsp;</p>
-<p><strong>Constraints:</strong></p>
+Input: nums = [2,2,2]
+Output: 1
 
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 12</code></li>
-	<li><code>0 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
-</ul>
 
+ 
+Constraints:
+
+
+	1 <= nums.length <= 12
+	0 <= nums[i] <= 109
+
+## Examples
+
+```
+Input: nums = [1,17,8]
+Output: 2
+Explanation: [1,8,17] and [17,8,1] are the valid permutations.
+
+Input: nums = [2,2,2]
+Output: 1
+```
+
+## Constraints
+
+- 1 <= nums.length <= 12
+- 0 <= nums[i] <= 109
 
 ---
 *Synced automatically with [AlgoVault](https://github.com/mr-sanjai-offl/AlgoVault)*

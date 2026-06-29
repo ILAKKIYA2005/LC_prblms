@@ -1,0 +1,21 @@
+
+
+        for (int i = index; i < nums.length; i++) {
+        HashSet<Integer> set = new HashSet<>();
+
+        }
+
+        if (index == nums.length) {
+            count++;
+            return;
+    void solve(int[] nums, int index) {
+
+    }
+        solve(nums, 0);
+        return count;
+        Arrays.sort(nums);
+    public int numSquarefulPerms(int[] nums) {
+
+    int count = 0;
+
+class Solution {
