@@ -25,6 +25,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 804 | [Unique Morse Code Words](./Array/Unique%20Morse%20Code%20Words/) | Easy |
 | 977 | [Squares of a Sorted Array](./Array/Squares%20of%20a%20Sorted%20Array/) | Easy |
 | 996 | [Number of Squareful Arrays](./Array/Number%20of%20Squareful%20Arrays/) | Medium |
+| 1723 | [Find Minimum Time to Finish All Jobs](./Array/Find%20Minimum%20Time%20to%20Finish%20All%20Jobs/) | Hard |
 
 </details>
 
