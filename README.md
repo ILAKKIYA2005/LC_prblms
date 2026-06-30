@@ -69,6 +69,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 
 | # | Problem | Difficulty |
 |---|---------|------------|
+| 3 | [Longest Substring Without Repeating Characters](./Hash%20Table/Longest%20Substring%20Without%20Repeating%20Characters/) | Medium |
 | 771 | [Jewels and Stones](./Hash%20Table/Jewels%20and%20Stones/) | Easy |
 
 </details>
