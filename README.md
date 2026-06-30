@@ -55,6 +55,7 @@ A professionally structured collection of topic-wise DSA solutions, optimized co
 | 620 | [Not Boring Movies](./Database/Not%20Boring%20Movies/) | Easy |
 | 1148 | [Article Views I](./Database/Article%20Views%20I/) | Easy |
 | 1683 | [Invalid Tweets](./Database/Invalid%20Tweets/) | Easy |
+| 1729 | [Find Followers Count](./Database/Find%20Followers%20Count/) | Easy |
 | 1757 | [Recyclable and Low Fat Products](./Database/Recyclable%20and%20Low%20Fat%20Products/) | Easy |
 | 1873 | [Calculate Special Bonus](./Database/Calculate%20Special%20Bonus/) | Easy |
 
