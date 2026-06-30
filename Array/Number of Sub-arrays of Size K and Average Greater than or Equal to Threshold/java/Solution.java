@@ -4,25 +4,26 @@ class Solution {
        int right=0;
        int current=0;
        int count=0;
-       int ans=0;
+       //int ans=0;
        while(right<arr.length)
        {
         current+=arr[right];
-        {
-            if(current/k>=threshold)
-            count++;
-        }
+      
 
 
         if(right-left+1==k)
         {
-            ans=Math.max(ans,count);
+            {
+            if(current>=k*threshold)
+            count++;
+        }
+            
 
 current-=arr[left];
 left++;
         }
        right++;
        } 
-       return ans;
+       return count;
     }
 }
